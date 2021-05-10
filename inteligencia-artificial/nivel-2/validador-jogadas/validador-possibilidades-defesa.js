@@ -1,10 +1,10 @@
 class ValidadorPossibilidadesDefesa {
 
-    validar (posicoesJaJogadas, quadroVelha, simbolo, jogada) {
+    validar (posicoesJaJogadas, campoJogo, simbolo, jogada) {
 
-        this.quadroVelha = quadroVelha
+        this.campoJogo = campoJogo
 
-        this.todasAsPosicoesDoQuadro = this.quadroVelha.obterTodasPosicoes()
+        this.todasAsPosicoesDoQuadro = this.campoJogo.obterTodasPosicoes()
 
         let possibilidadeDeVitoriaAdversario = 0
 

@@ -1,6 +1,6 @@
 class IANivel1 {
-    async fazerJogada (quadroVelha) {
-        return quadroVelha.fazerJogadaAleatoria()
+    async fazerJogada (campoJogo) {
+        return campoJogo.fazerJogadaAleatoria()
     }
 }
 

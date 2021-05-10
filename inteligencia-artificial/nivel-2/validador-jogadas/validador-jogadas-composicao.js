@@ -25,9 +25,9 @@ class ValidadorJogadas {
         ]
     }
 
-    validar (posicoesJaJogadas, quadroVelha, simbolo)  {
+    validar (posicoesJaJogadas, campoJogo, simbolo)  {
         for (const jogada of this.jogadas) {
-            const validacao = this.validadorJogada.validar(posicoesJaJogadas, simbolo, quadroVelha, jogada)
+            const validacao = this.validadorJogada.validar(posicoesJaJogadas, simbolo, campoJogo, jogada)
             if (validacao) {
                 return validacao
             }

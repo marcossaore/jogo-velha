@@ -15,9 +15,9 @@ class CPU {
         return this.simbolo
     }
 
-    async fazerJogada (quadroVelha) {
+    async fazerJogada (campoJogo) {
         await this.simularPensamento()
-        return this.inteligenciaArtificial.fazerJogada(quadroVelha, this.simbolo)
+        return this.inteligenciaArtificial.fazerJogada(campoJogo, this.simbolo)
     }
 
     async simularPensamento () {
