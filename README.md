@@ -2,7 +2,7 @@
 
 ### Instruções
 
-o campo do jogo está mapeado com os números 1 a 9. Para jogar na posição desejada utilizada o mapa a seguir:
+o campo do jogo está mapeado com os números 1 a 9. Para jogar na posição desejada, utilize o mapa a seguir:
 
      1 | 2 | 3
     -----------
